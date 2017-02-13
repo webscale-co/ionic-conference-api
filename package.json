@@ -60,8 +60,11 @@
     "docker-compose"
   ],
   "dependencies": {
+    "babel-polyfill": "6.16.0",
+    "babel-register": "6.16.3",
     "bcrypt": "^0.8.7",
     "bluebird": "^3.4.6",
+    "chai": "^3.5.0",
     "debug": "^2.2.0",
     "dotenv": "^2.0.0",
     "import-dir": "0.0.1",
@@ -87,11 +90,8 @@
     "passport-jwt": "^2.1.0",
     "passport-oauth2-client-password": "^0.1.2",
     "source-map-support": "^0.4.5",
-    "winston": "^2.2.0",
-    "babel-register": "6.16.3",
-    "babel-polyfill": "6.16.0",
     "supertest-as-promised": "^4.0.0",
-    "chai": "^3.5.0"
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "apidoc": "^0.16.1",
